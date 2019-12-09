@@ -1,0 +1,22 @@
+
+.footer-content{
+    padding:20px;
+    margin:12px 250px;
+}
+footer p{
+    font-size: 12px;
+    color: #ababab;
+    text-align: center;
+}
+.footer-link a{
+    color:#3d83df;
+}
+.footer-link a:hover{
+    text-decoration: underline;
+}
+.footer-leaders{
+    margin-bottom:10px;
+}
+.footer-cookies{
+    margin:19.2px 0 4.8px;
+}

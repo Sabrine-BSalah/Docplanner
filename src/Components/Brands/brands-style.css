@@ -1,0 +1,44 @@
+.brands-section{
+    display: flex;
+    margin-top:40px;
+    margin-bottom:50px;
+    height: 100px;
+    padding:0 20px;
+}
+
+.brands-intro{
+    color:#00b39b;
+    font-size:26px;
+    font-weight: 300;
+    letter-spacing: .3px;
+    margin: 6.5px 0 9px;
+    padding-right:130px;
+    flex:1;
+}
+
+.brands-list{
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.brand-logo svg{
+    width: auto;
+    height: 20px;
+    fill: #ababab;
+    padding-left: 10px;
+    cursor:pointer;
+}
+
+.brand-logo svg:hover{
+    fill: #00b39b;
+}
+
+.brands-list li a{
+    padding: 5px 0;
+}
+
+.brands-list li{
+    padding: 5px 12px;
+}

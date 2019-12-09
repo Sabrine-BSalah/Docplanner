@@ -1,0 +1,84 @@
+.logo-docplanner{
+    width:268px;
+    height:33px;
+    cursor:pointer;
+}
+
+.navbar{
+    padding:0 20px;
+    margin: 0 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 70px;
+    /* top:0;
+    left: 0;
+    right: 0; */
+}
+
+ul {
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+ul li a{
+    cursor:pointer;
+}
+a{
+    text-decoration: none;
+    color: #ababab;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color:#ababab;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.header-menu li{
+    padding:10px;
+    box-sizing: border-box;
+}
+.dropdown-menu{
+    padding:0;margin:0;
+    background-color: white;
+    color:#ababab;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index:1;
+    flex:1;
+    box-shadow: 0px 3px 18px rgb(214, 218, 222);
+    position: absolute;
+    top:50px;
+    left:60px;
+    width:210px;
+    display:none;
+}
+
+.dropdown-link:hover .dropdown-menu{
+    display:flex;
+}
+.dropdown-menu li{
+    margin-left:5px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+/*********** Hover Menu ***********/
+
+.header-menu li a:hover{
+    color:#00b39b;
+}
+.dropdown-menu li a:hover{
+    color:#00b39b;
+}
+.active-link a {
+    color: #00b39b;
+}

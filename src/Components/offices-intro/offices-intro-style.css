@@ -1,0 +1,12 @@
+.offices-intro{
+    margin: 0 auto 67px;
+}
+.offices-intro h2{
+    font-size: 30px;
+}
+.offices-intro p{
+    font-size: 14px;
+    line-height: 1.7142857143;
+    margin: 22.4px auto 0;
+    max-width: 460px;
+}

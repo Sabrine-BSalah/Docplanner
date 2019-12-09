@@ -1,0 +1,12 @@
+.intro-content{
+    display: flex;
+    justify-content: space-between;
+    color:#747474;
+    font-size: 16px;
+    line-height: 1.75;
+}
+.intro-content p{
+    padding:10px;
+    margin-left: 30px;
+    margin:12.8px 0;
+}

@@ -1,38 +1,63 @@
 .App {
-  text-align: center;
+  font-size: 15px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(116, 116, 116);
+  font-weight: 400;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main{
+  margin: 0 250px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1,h2,h3{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  letter-spacing: .3px;
+  color: #00b39b;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-container{
+  z-index: 3;
+  position: sticky;
+  top:0;
+  background-color: white;
+  height: 70px;
+}
+
+.intro-section{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top:30px;
+  padding:0 20px;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.stats-section{
+  margin:0 -250px;
+  background-color: #e5faf8;
+  overflow: hidden;
+  margin-top: 50px;
+  margin-bottom: 88px;
+  padding: 30px 0 10px;
+  position:relative;
+}
+.stats-content{
+  display: flex;
+  margin: 0 250px;
+  padding:0 20px;
+  height: 550px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.offices-section{
+  text-align:center;
+  height: 1000px;
+}
+
+footer{
+  border-top: 1px solid #eef2f2;
+  margin-top:120px ;
 }

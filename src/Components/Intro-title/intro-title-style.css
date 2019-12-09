@@ -1,0 +1,25 @@
+.introTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-logo{
+    width: 40px;
+    height: 39px;
+    /* margin-top: 70px; */
+}
+
+h1{
+    font-size: 34px;
+    color: #00b39b;
+    margin: 34px 0;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: .3px;
+}
+
+.intro-title{
+    margin:34px 0;
+}
+
